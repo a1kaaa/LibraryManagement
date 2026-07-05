@@ -2,6 +2,7 @@ package com.a1ka.library.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 // Permet de ne pas faire les getters / Setters à la main.
