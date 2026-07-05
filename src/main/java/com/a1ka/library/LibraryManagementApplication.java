@@ -1,4 +1,4 @@
-package com.a1ka.library.library_management;
+package com.a1ka.library;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
