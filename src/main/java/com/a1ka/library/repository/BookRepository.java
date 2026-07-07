@@ -8,5 +8,6 @@ import java.util.List;
 public interface BookRepository extends JpaRepository<Book, Long> { // Notre Book et Long car c'est le type de la clé primaire
     List<Book> findByAuthor(String author);
     List<Book> findByCategory(String category);
+    List<Book> findByTitle(String title);
     List<Book> findByAvailableTrue();
 }
