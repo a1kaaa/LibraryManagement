@@ -1,6 +1,8 @@
 package com.a1ka.library.service;
 
 import java.util.List;
+import java.util.Optional;
+
 import com.a1ka.library.entity.Book;
 import com.a1ka.library.exception.BookNotFoundException;
 import com.a1ka.library.repository.BookRepository;
@@ -34,7 +36,7 @@ public class BookService {
         bookRepository.deleteById(id);
     }
 
-    public Book getBookById(Long id) {
+    public Optional<Book> getBookById(Long id) {
         return bookRepository.findById(id);
     }
 
